@@ -65,7 +65,6 @@ const banditIntegration = {
                 project_id,
                 save_intermediates_to,
                 status,
-                mode,
             } = this
             return {
                 config,
@@ -73,7 +72,6 @@ const banditIntegration = {
                 project_id,
                 save_intermediates_to,
                 status,
-                mode,
             }
         },
         modal() {
